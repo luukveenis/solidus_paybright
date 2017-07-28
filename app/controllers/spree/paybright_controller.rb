@@ -1,5 +1,5 @@
 module Spree
-  class PaybrightController < Spree::BaseController
+  class PaybrightController < StoreController
     # Server2server call that gets parameters about the results of the Paybright
     # transaction.
     def callback
